@@ -1062,3 +1062,7 @@ jets do not need to follow the same solution algorithm and logic as the
 Hoon code; they merely need to reliably produce the same result. At the
 current time, the feasibility of automatic jet verification is an open
 research question.
+
+A jet can also solve certain cases efficiently but leave others to the Hoon implementation.  Per ~master-morzod:
+
+> Jets can be partial; a `u3w_*` jet interface function takes the entire core as one noun argument and returns a `u3_weak` result. If the return value is `u3_none` [distinct from `u3_nul`, `~`], the core is evaluated; otherwise the resulting noun is produced in place of the nock.
