@@ -1,5 +1,7 @@
 # Debugging Memory Leaks in Urbit
 
+~lagrev-nocfep / Sigilante / Neal Davis
+
 The most common issue with memory is the infamous segfault (`SIGSEGV`).  There are also a variety of memory leaks which need to be carefully handled in a reference-counted system like the Urbit jets.
 
 Your tools include:
