@@ -160,7 +160,7 @@ return u3i_mp(a_mp);          # write the value back into the loom and return it
 ```
 
 
-The procedure to solve the problem in the C jet does not need to follow the same algorithm as the Hoon code.
+The procedure to solve the problem in the C jet does not need to follow the same algorithm as the Hoon code.  (In fact, it is preferred to use native C implementations where possible to avoid memory leaks in the `u3` noun system.)
 
 In general, jet code feels a bit heavy and formal.  Jet code may call other jet code, however, so much as with Hoon layers of complexity can be appropriately encapsulated.  Once you are used to the conventions of the u3 library, you will be in a good position to produce working and secure jet code.
 
